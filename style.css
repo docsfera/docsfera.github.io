@@ -1,0 +1,533 @@
+body{
+	height: 2000px;
+}
+
+
+#counter{
+	font-size: 25px;
+}
+
+.tyty{
+	background-color: #172C89;
+	height: 600px;
+	position: static;
+}
+.dizain{
+	width: 100%;
+	height: 130px;
+	position: relative;
+	bottom:130px;
+	z-index: 1;
+	color:white;
+	font-family: 'Play', sans-serif;
+}
+
+.bit_dizain_1{
+	opacity: 0.7;
+	display: inline-block;
+	width: 20%;
+	z-index: 2;
+	height: 100%;
+	position: relative;
+	left:20%;
+	text-align:center;
+}
+.bit_dizain_2{
+	opacity: 0.6;
+	display: inline-block;
+	width: 20%;
+	z-index: 2;
+	height: 100%;
+	position: relative;
+	left:20%;
+	text-align:center;
+}
+.bit_dizain_3{
+	opacity: 0.6;
+	display: inline-block;
+	width: 20%;
+	z-index: 2;
+	height: 100%;
+	position: relative;
+	left:20%;
+	text-align:center;
+
+}
+
+.head{
+	width: 100%;
+	
+	background-color: rgba(r, g, b, a); /* Прозрачность блока*/
+	height: 40px;
+	position: relative; 
+
+}
+.hat{
+	width: 100%;
+	height: 80px;
+	background-color:#D7D8D9;
+	opacity: 0;
+}
+.hat_move{
+
+	height: 100%; width: 4% ;display: inline-block;padding-right: 2%; /*error with image*/
+	animation-name: spin;
+
+	animation: spin 10s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: ease-in-out;
+	
+}
+
+@keyframes spin {
+
+	0%{
+
+		transform: rotate(0deg);
+		background-image: url("img/likeblack.png");
+		background-size: auto 100%;
+	}
+
+	100%{
+
+		transform: rotate(360deg);
+		background-image: url("img/likeblue.png");
+		background-size: auto 100%;
+	}
+}
+
+
+.headhesive{
+	width: 100%;
+	height: 80px;
+	position: fixed;
+	z-index: 3;
+	transform: translateY(-100px);
+ 
+}
+.headhesive--stick{
+	z-index: 3;
+	align-items: center;
+	transform: translateY(0);
+	opacity: 0.8;
+
+}
+
+
+.like_podarok{
+	font-size: 24px;
+	padding-left: 10%;/*PHOTOSHOP*/ /*PHOTOSHOP*/ /*PHOTOSHOP*/ /*PHOTOSHOP*/
+	/*ДОРАБОТАТЬ*/ /*ДОРАБОТАТЬ*/ /*ДОРАБОТАТЬ*/ /*ДОРАБОТАТЬ*/
+
+}
+
+
+.inst{ 
+	 padding-left: 70%;
+	display: inline-block;
+}
+.Vkrest{ /* ВК*/
+	display: inline-block;
+	padding-left: 2.2%;
+
+}
+
+.Vkrest:hover{ /* ВК наведение*/
+	-webkit-transform: scale(1.1); /* up mashtab*/
+ -moz-transform: scale(5.2);
+ -o-transform: scale(2.5);
+}
+
+.buttom_up{ /* Кнопка Корзины*/
+	height: 50px;
+	width:23%;
+	background-color: #EAC15A;
+	border-radius:50px;
+	position: relative;
+	left:15%;
+
+}
+
+.buttom_up:hover{
+	background-color: white;
+}
+
+
+.box_move{
+	float: right;
+	width: 55%;
+	height: 100%;
+	background-color: rgba(r, g, b, a); /* Прозрачность блока*/ 
+	position: relative;
+	bottom: 500px;
+	text-align:center;
+	font-family: 'Play', sans-serif; /*Шрифт для переменных чисел*/
+	font-size:23px;
+
+	
+}
+.textup{
+	width: 100%;
+	height: 18%;
+	padding-bottom: 15%;
+	color: #394E8C;
+	font-family: 'Pacifico', cursive; /*Шрифт для переменных чисел*/
+	font-size: 3.4vw;
+
+}
+
+.movebox1{
+	 height: 40%;
+	 width: 47%;
+	 background-color: #EBECED;
+	 display: inline-block;
+
+
+}
+.movebox2{
+	 height: 40%;
+	 width: 47%;
+	 background-color: #EBECED;
+	 display: inline-block;
+	 margin-bottom: 10px;
+	 margin-left: 10px;
+
+
+}
+.movebox3{
+	 height: 40%;
+	 width: 47%;
+	 background-color: #EBECED;
+	 display: inline-block;
+
+}
+.movebox4{
+	 height: 40%;
+	 width: 47%;
+	 background-color: #EBECED;
+	 display: inline-block;
+	 margin-left: 10px;
+
+}
+pp{ /*прозраностm*/
+	opacity: 0;
+	font-size: 1.4vw
+}
+.fix_pp{ /*Фикс прозраности*/
+	opacity: 1;
+	transition: 1s;
+}
+
+.dont_care{
+	width: 100%;
+	height:80%;
+	background-color:#EFF0F1;
+	position: relative;
+	display: inline-block;
+	bottom:350px; /*ЛЮТЫЙ КАСТЫЛЬ*/ /*ЛЮТЫЙ КАСТЫЛЬ*/ /*ЛЮТЫЙ КАСТЫЛЬ*/ /*ЛЮТЫЙ КАСТЫЛЬ*/
+	text-align: center;
+	font-family: 'Modak', cursive; /*Шрифт для переменных чисел*/
+	
+
+}
+
+.second{
+	width: 22%;
+	height:80%;
+	background-color:#EFF0F1;
+	display: inline-block;
+	padding-bottom: 12%;
+	padding-left: 2%; 
+}
+
+.how_cost{
+	width: 100%;
+	height:300px;
+	color: black;
+	font-size: 24px;
+	display: inline-block;
+	position: relative;
+	perspective: 1000px;
+
+
+}
+.under_how_cost{ 
+	width: 90%;
+	height: 30px;
+	margin-top: 5%;
+	display: inline-block;
+	position: relative;
+	z-index: 5;
+	font-size: 23px;
+}
+
+.btn1_anti{
+  padding: 1em 2em;
+  border: 3px solid #172C89;
+  transition: all 300ms ease;
+  box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.2);
+  height: 100%;
+  position: relative;
+  padding-top: 10%; 
+  font-family: 'Russo One', sans-serif;
+  font-size: 17px;
+}
+
+
+
+.btn-1 {
+  padding: 1em 2em;
+  border: 3px solid #172C89;
+  transition: all 300ms ease;
+  box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.2);
+  height: 100%;
+  position: relative;
+  padding-top: 10%; 
+  font-family: 'Russo One', sans-serif;
+  font-size: 17px;
+}
+.btn-1:before {
+  /* position: absolute; */
+  /* content: ''; */
+  width: 0%;
+  height: 100%;
+  background: #172C89;
+  top: 0;
+  left: 50%;
+  z-index: -1;
+  transition: all 0ms ease;
+}
+.btn-1:hover {
+  color: white; 
+  box-shadow: none;
+  -webkit-transform: scale(1.1); /* up mashtab*/
+ -moz-transform: scale(5.2);
+ -o-transform: scale(2.5);
+}
+.btn-1:hover:before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: #172C89;
+  top: 0;
+  left: 0%;
+  z-index: -1;
+  transition: all 300ms ease;
+}
+a {
+  text-decoration: none;
+  font-weight: 500;
+  position: relative;
+  color: #4A4A4A;
+  display: inline-block;
+}
+
+.button-item {
+  padding-bottom: 2em;
+}
+
+aa {
+  text-decoration: none;
+  font-weight: 500;
+  position: relative;
+  color: #172C89;
+  display: inline-block;
+}
+
+
+
+
+.move_img{ /* для переворота */
+	vertical-align: middle;
+
+}
+
+
+.how_cost:hover .rotate{ /* для переворота */
+	transform: rotateY(180deg);
+
+}
+.rotate{ /* для переворота */
+	position: relative;
+	transition: 0.75s;
+	transform-style: preserve-3d;
+}
+
+.rotate_anti{ /* для cansel переворота */
+	position: relative;
+	transition: 0.75s;
+	transform-style: preserve-3d;
+}
+
+
+
+.text{ /* для переворота */
+	position: absolute;
+	top: 0;
+	left: 0;
+	transform: rotateY(180deg);
+	width: 100%;
+	height:100%;
+	font-family: 'Play', sans-serif;
+	color: #F2F312;
+	line-height: 1.5;
+	opacity: 0.9;
+
+}
+
+.move_img, .text{ /* для переворота */
+	background-color: white;
+	width: 100%;
+	height:100%;
+	backface-visibility: hidden;
+}
+.pd{ /* для переворота */
+	width: 100%;
+	height:100%;
+	text-align:center;
+	overflow: hidden;
+	font-size: 1.4vw; /* РЕЗИНОВЫЙ ТЕКСТ*/
+	background-color: rgba(23, 44, 137, 0.7);
+
+
+
+}
+
+
+.move_img_1{ /* для переворота */
+	vertical-align: middle;
+	border: 2px solid black;
+}
+
+.move_img_1, .text{ /* для переворота */
+	/*background-image: url("img/slaid_7.png");*/
+	background-image: url(img/likeblue.png);
+	background-size: 100% 100%;
+	width: 100%;
+	height:100%;
+	opacity: 1;
+	backface-visibility: hidden;
+	border: 2px solid black;
+
+}
+
+.backbox{
+	background-color: #172C89;
+	height: 550px;
+	width: 100%;
+	position:relative;
+	bottom:600px;
+	z-index: 2;
+}
+.bottombox{
+	width: 20%;
+	height:300px;
+	display: inline-block;
+	position: absolute;
+	bottom: -90px;
+}
+.text_box_bottom{
+	width: 100%;
+	height: 100%;
+	color: yellow;
+	font-size: 1.4vw;
+	text-align: center;
+
+}
+ 
+/* ОКНО РЕГИСТРАЦИИ И Т.Д */
+
+.registration_box{
+	
+	width: 50%;
+	height: 60%;
+	background-color: rgba(249,249,249,1);
+	opacity: 0.9;
+	position: fixed;
+	left: 50%;
+	top:50%;
+	transform: translate(-50%, -50%);
+	z-index: 10;
+	display: none;
+	border:2px solid #263487;
+	/*border-radius:20px;*/
+}
+
+.up_registration_img{
+	position: relative;
+	left: 15%;
+	font-size: 23px;
+	font-family: 'Play', sans-serif;
+	margin-top: 10px;
+}
+
+.exit_registration_box{
+	margin-top: 2px;
+	width: 40px;
+	height:40px;
+	float: right;
+	position: relative; /*Фикс заедания кнопки выхода*/
+	z-index: 10; /*Фикс заедания кнопки выхода*/
+}
+.img_registration_box{
+	height: 60%;
+	width: 35%;
+	background-color: blue;
+	margin-left: 5%;
+	margin-top: 20px; 
+	display: inline-block;
+	border: 4px solid #263487;
+
+}
+.left_registration_box{
+	display: inline-block;
+	width: 50%;
+	height:100%;
+	float:right;
+	margin-right: 5px;
+	margin-top: -40px;
+	
+
+
+}
+.prise_under_img{
+}
+.test123{
+	position: relative;
+	left: 15%;
+	font-size: 23px;
+	font-family: 'Modak', cursive;}
+.input1{
+	width: 60%;
+	height: 20px;
+	margin-left: 20%;
+	margin-top: 3%;
+	border:1px solid black;
+
+
+}
+
+.input11{
+	width: 60%;
+	height: 20px;
+	margin-top: 3%;
+
+border:1px solid black;
+}
+
+
+.text_registration{
+	
+	font-size: 1.3vw;
+	font-family: 'Play', sans-serif;
+	position: relative;
+	margin-top: 3%;
+	color: #A0A0A0;
+}
+
+
+#error_buttom{
+	/*i dont care*/
+}
